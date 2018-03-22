@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Question 1B</title>
+  <link rel='stylesheet' href='css/style.css'>
+</head>
+<body>
+  <div id="wrapper">
+    <div data-divName='Div1' class="div1">
+      Div1
+      <div data-divName='Div2' class="div2">
+        Div2
+        <div data-divName='Div3' class="div3">
+          Div3
+        </div>
+      </div>
+    </div>
+  </div>
+<script>
+document.getElementById('wrapper').addEventListener('click', ({ target }) => {
+  const { divname } = target.dataset;
+  if (divname) {
+    alert(`${divname} has been clicked!`);
+  }
+});
+</script>
+</body>
+</html>

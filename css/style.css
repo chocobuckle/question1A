@@ -1,0 +1,32 @@
+#wrapper {
+  height: 80%;
+  margin: 0 auto;
+  text-align: center;
+  width: 80%;
+}
+
+.div1 {
+  background-color: #c5d8f2;
+  height: 90%;
+  margin: 0 auto;
+  width: 90%;
+}
+
+.div2,
+.div3 {
+  background-color: #f39645;
+  margin: 5em auto;
+  height: 50%;
+  width: 50%;
+}
+
+.div3 {
+  border: 2px solid #c5d8f2;
+  padding: 5em;
+}
+
+.div1,
+.div2,
+.div3 {
+  cursor: pointer;
+}
